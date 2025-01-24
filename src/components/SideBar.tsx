@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { NavLinks } from "@/constants";
-import { link } from "fs";
+
 import Link from "next/link";
 import Transition from "./Transition";
 

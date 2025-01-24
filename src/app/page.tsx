@@ -22,7 +22,7 @@ export default function Home() {
         />
 
         <div className="flex flex-col gap-3 z-10 pl-40 pt-20">
-          <h1 className="text-[45px] text-white max-w-[500px] ">Hi, I'm Mykola Nedilko
+          <h1 className="text-[45px] text-white max-w-[500px] ">Hi, I am Mykola Nedilko
             <span className="text-red-500 ml-10 inline-block">FullStack developer</span>
           </h1>
           <p className="text-[16px] text-gray-200 md:text-gray mb-10 md:pb-2 max-w-[400px]">
