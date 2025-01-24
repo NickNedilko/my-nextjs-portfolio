@@ -1,5 +1,4 @@
 import CvButton from "@/components/CvButton";
-import CV from "@/components/CvButton";
 import Image from "next/image";
 
 export default function Home() {
