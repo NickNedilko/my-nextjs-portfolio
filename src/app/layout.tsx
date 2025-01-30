@@ -4,6 +4,7 @@ import "./globals.css";
 import SideBar from "@/components/SideBar";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import ParticlesComponent from "@/components/Partickles";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,8 +30,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Navbar/>
+      >     
+        <ParticlesComponent />
+        <Navbar />
         <SideBar/>
         {children}
         <Footer/>

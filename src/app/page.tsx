@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex items-center h-screen relative bg-cover bg-[url('/assets/bg-explosion.png')]">
-      <div className="absolute right-10 md:right-40 bottom-0 z-[10]">
+      <div className="absolute right-10 md:right-40 bottom-0 z-[1]">
         <Image
           src='/assets/MoustacheMan.png'
           alt='MoustacheMan'
