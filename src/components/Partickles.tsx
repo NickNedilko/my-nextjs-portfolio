@@ -7,12 +7,9 @@ import { ParticleOptions } from "@/constants/particles-types";
 
 
 
-interface ParticlesComponentProps {
-  id: string;
-}
 
 
-const ParticlesComponent = (props: ParticlesComponentProps) => {
+const ParticlesComponent = () => {
 
   const [init, setInit] = useState<boolean>(false);
     console.log(init);
@@ -104,7 +101,7 @@ const ParticlesComponent = (props: ParticlesComponentProps) => {
 
 // @ts-expect-error: Ошибка ожидается, так как тип `move.direction` должен быть из множества допустимых значений, но используется строка "none"
 
-  return <Particles id={props.id} init={particlesLoaded} options={options} className="absolute right-0 top-0 h-full w-[80%] z-[2]"/>; 
+  return <Particles  init={particlesLoaded} options={options} className="absolute right-0 top-0 h-full w-[80%] z-[2]"/>; 
 };
 
 export default ParticlesComponent;
