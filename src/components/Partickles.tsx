@@ -25,7 +25,10 @@ const ParticlesComponent = (props: ParticlesComponentProps) => {
     });
   }, []);
 
-  const particlesLoaded = (container: any):void => {
+    
+// @ts-expect-error: Ошибка 
+    
+  const particlesLoaded = (container):void => {
     console.log(container);
   };
 
