@@ -79,11 +79,11 @@ const WeatherWidget: React.FC = () => {
   if (!weather) return null; // Если данные ещё загружаются, ничего не показываем
 
   return (
-    <div className="flex items-center gap-8 bg-white rounded-lg p-2 px-4 opacity-50">
+    <div className="flex items-center gap-8 rounded-lg p-2 px-4 opacity-50 bg-red-500 bg-opacity-50 hover:bg-red-500 ">
       <img src={weather.icon} alt="Погода" width={42} height={42} />
-      <span className="font-bold text-lg">{weather.location}</span>
-      <span className="italic ">{weather.temperature}°C</span>
-      <span className="ml-4 from-neutral-500 text-lg">{currentTime}</span>
+      <span className="font- text-lg text-white">{weather.location}</span>
+      <span className="italic text-white">{weather.temperature}°C</span>
+      <span className="ml-4 text-lg text-white">{currentTime}</span>
     </div>
   );
 };
