@@ -1,5 +1,6 @@
 import { Socials } from '@/constants';
 import React from 'react';
+import WeatherWidget from './WeatherWidget';
 
 
 
@@ -11,6 +12,7 @@ const Navbar = () => {
             <h1 className='text-white text-[40px]'>
                Mykola Nedilko<span className='text-red-500 text-[50px]'>.</span>
             </h1>
+            <WeatherWidget />
             <div className=' flex flex-row gap-6'>
                 {Socials.map((social) =>
                     <a 
