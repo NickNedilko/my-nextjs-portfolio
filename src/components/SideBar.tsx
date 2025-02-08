@@ -32,7 +32,7 @@ const Sidebar = () => {
     }
   }, [isRouting, path]);
   return (
-    <div className="fixed right-8 top-[40%] z-[20] h-[200px] w-[48px] rounded-full bg-gray-500 bg-opacity-50">
+    <div className="fixed right-8 top-[15%] md:top-[40%] z-[20] h-[180px] md:h-[200px] w-[40px] rounded-full bg-gray-500 bg-opacity-50">
       <AnimatePresence mode="wait">
         {isRouting && <Transition />}
         <div className="flex flex-col gap-5 pb-3 justify-center items-center h-full">
@@ -43,7 +43,7 @@ const Sidebar = () => {
               onClick={() => setIsActive(link.name)}
             >
               <link.icon
-                className={`w-[28px] h-[28px] ${
+                className={`w-[24px] h-[24px] md:w-[28px] md:h-[28px] ${
                   isActive === link.name ? "text-orange-500" : "text-white"
                 }`}
               />
