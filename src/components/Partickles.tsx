@@ -58,10 +58,10 @@ const ParticlesComponent = () => {
       },
       particles: {
         color: {
-          value: "#FFFFFF",
+          value: "#e64e4e",
         },
         links: {
-          color: "#FFFFFF",
+          color: "#e64e4e",
           distance: 150,
           enable: true,
           opacity: 0.3,
@@ -101,7 +101,7 @@ const ParticlesComponent = () => {
 
 // @ts-expect-error: Ошибка ожидается, так как тип `move.direction` должен быть из множества допустимых значений, но используется строка "none"
 
-  return <Particles  init={particlesLoaded} options={options} className="absolute right-0 top-0 h-full w-[80%] z-[2]"/>; 
+  return <Particles  init={particlesLoaded} options={options} className="absolute right-0 top-0 h-full w-[80%] z-[20]"/>; 
 };
 
 export default ParticlesComponent;

@@ -31,11 +31,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >     
+        <div className="grid min-h-screen grid-rows-[1fr_auto] relative">
         <ParticlesComponent />
         <Navbar />
         <SideBar/>
         {children}
         <Footer/>
+        </div>
       </body>
     </html>
   );

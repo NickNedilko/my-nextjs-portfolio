@@ -7,7 +7,7 @@ const Footer = () => {
   const date:number = new Date().getFullYear();
 
   return (
- <div className="fixed bottom-0 left-0 right-0 pb-5 flex justify-center items-center z-10 px-4 sm:px-8 md:px-16">
+ <div className=" absolute bottom-0 left-0 right-0 pb-5 flex justify-center items-center z-10 px-4 sm:px-8 md:px-16">
       <p className="text-white text-center text-sm sm:text-base">
         © {date}. All rights reserved. Developed by{" "}
         <Link
