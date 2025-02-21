@@ -1,4 +1,4 @@
-import { Certificates } from '@/components/Certificates';
+
 import TechSlider from '@/components/TechSlider';
 import Image from 'next/image';
 import React from 'react'

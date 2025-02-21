@@ -10,7 +10,6 @@ import {
   RxDashboard,
 } from "react-icons/rx";
 import { FaGithub, FaLinkedin, FaMobileAlt, FaTelegram } from "react-icons/fa";
-import { title } from "process";
 export const Socials = [
   {
     name: "Github",
