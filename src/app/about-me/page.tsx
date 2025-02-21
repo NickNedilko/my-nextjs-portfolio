@@ -17,10 +17,10 @@ const Page = () => {
                     className=' hidden md:block'
                 />
             </div>
-            <div className='flex flex-col gap-10 items-center justify-center relative'>
+   
               <TechSlider/>
-              {/* <Certificates /> */}
-            </div>
+             
+       
         </div>
     )
 }
