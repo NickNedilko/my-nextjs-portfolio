@@ -15,12 +15,14 @@ const Sidebar = () => {
 
   const path = usePathname();
 
+
   useEffect(() => {
     if (prevPath !== path) {
       setIsRouting(true);
     }
   }, [path, prevPath]);
 
+  
   useEffect(() => {
     if (isRouting) {
       setPrevPath(path);
@@ -44,7 +46,7 @@ const Sidebar = () => {
             >
               <link.icon
                 className={`w-[24px] h-[24px] md:w-[28px] md:h-[28px] ${
-                  isActive === link.name ? "text-orange-500" : "text-white"
+                  isActive=== link.name ? "text-orange-500" : "text-white"
                 }`}
               />
             </Link>

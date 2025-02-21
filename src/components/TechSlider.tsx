@@ -9,28 +9,9 @@ import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 import {TechData } from "@/constants";
 import Image from "next/image";
 
-
-/*************  ✨ Codeium Command ⭐  *************/
-/**
- * TechSlider component displays a carousel of technology skills using the Swiper library.
- * 
- * This component renders a Swiper slider with multiple slides, each representing a
- * technology skill. The slider is configured with responsive breakpoints, free mode,
- * navigation, looping, autoplay, and pagination features. Each slide contains an image
- * and a title for a specific technology, sourced from the `TechData` array.
- *
- * Features:
- * - Responsive design with adjustable slides per view and spacing at different breakpoints.
- * - Free mode scrolling with smooth transitions.
- * - Autoplay feature with a delay of 2500ms between slides.
- * - Clickable pagination indicators for navigation.
- * - Hover effect on slides with a semi-transparent overlay.
- */
-
-/******  0770a6c3-cccb-495c-9230-2e43b3680b15  *******/
 const TechSlider = () => {
   return (
-    <div className="absolute top-[200px] right-20 md:bottom-60 md:right-40 w-[70%] md:w-[60%] z-50">
+    <div className="absolute top-[200px] right-20 md:bottom-60 md:right-40 w-[70%] md:w-[50%] z-50">
       <h1 className="text-3xl text-white text-center mb-10">TechSkills</h1>
       <Swiper 
         breakpoints={{
@@ -39,8 +20,17 @@ const TechSlider = () => {
             spaceBetween: 10,
           },
           700: {
-            slidesPerView: 4,
+            slidesPerView: 2,
             spaceBetween: 10,
+          },
+          
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 15,
           },
         }}
         freeMode={true}
