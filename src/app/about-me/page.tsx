@@ -1,4 +1,5 @@
 
+import { Certificates } from '@/components/Certificates';
 import TechSlider from '@/components/TechSlider';
 import Image from 'next/image';
 import React from 'react'
@@ -18,7 +19,10 @@ const Page = () => {
                 />
             </div>
    
-              <TechSlider/>
+            <div className='flex flex-col gap-10 items-center justify-center'>
+                 <TechSlider />
+            <Certificates/>
+            </div>
              
        
         </div>
