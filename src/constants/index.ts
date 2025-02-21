@@ -118,7 +118,7 @@ export const TechData = [
   },
   {
     title: 'MongoDB',
-    icon: '/assets/icons/mongodb.svg',
+    icon: '/assets/icons/mongodb.png',
   },
   {
     title: 'zustand',
