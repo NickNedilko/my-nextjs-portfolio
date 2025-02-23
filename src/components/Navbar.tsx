@@ -1,12 +1,15 @@
+'use client';
 import { Socials } from '@/constants';
 import React from 'react';
 import WeatherWidget from './WeatherWidget';
+import clsx from 'clsx';
 
 
 
 const Navbar = () => {
+
   return (
-    <div className="fixed top-0 bg-transparent p-5  z-20 w-full items-center flex flex-col gap-4 md:flex-row md:gap-6 justify-between md:px-10 lg:px-20">
+    <div className={clsx("fixed top-0 bg-transparent p-5  z-20 w-full items-center flex flex-col gap-4 md:flex-row md:gap-6 justify-between md:px-10 lg:px-20")}>
       {/* Логотип - скрыт на мобильных, виден на больших экранах */}
       <h1 className="text-white text-[28px] hidden lg:block">
         Mykola Nedilko<span className="text-red-500 text-[36px]">.</span>

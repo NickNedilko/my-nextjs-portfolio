@@ -1,10 +1,4 @@
 import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxRocket,
-  RxAccessibility,
   RxHome,
   RxPerson,
   RxDashboard,
@@ -51,44 +45,7 @@ export const NavLinks = [
   },
 ];
 
-export const ServiceData = [
-  {
-    icon: RxReader,
-    title: "Seo",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity7.jpeg",
-  },
-  {
-    icon: RxCrop,
-    title: "Development",
-    content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity9.jpeg",
-  },
-  {
-    icon: RxPencil2,
-    title: "Branding",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity1.jpg",
-  },
-  {
-    icon: RxDesktop,
-    title: "Design",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity6.jpeg",
-  },
-  {
-    icon: RxAccessibility,
-    title: "Management",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity5.jpeg",
-  },
-  {
-    icon: RxRocket,
-    title: "Production",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity8.jpeg",
-  },
-];
+
 
 export const TechData = [
   {
